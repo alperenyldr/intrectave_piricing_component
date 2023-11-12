@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Interactive pricing component</title>
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body style="background-color: hsl (0, 0%, 100%)">
+  <div class="container">
+    <div class="header">
+      <img src="./images/pattern-circles.svg" alt="" class="bg-circles" />
+      <h1>Simple, traffic-based pricing</h1>
+      <p>Sign-up for our 30-day trial.</p>
+      <p>No credit card required.</p>
+    </div>
+
+    <div class="container-inner">
+      <div>
+        <div class="title">
+          <h4>100K Pageviews</h4>
+          <p class="price">
+            <span>$16.00</span>
+            &nbsp;&nbsp;&nbsp;/month
+          </p>
+        </div>
+
+        <form class="form">
+          <input type="range" name="range-slider" id="range-slider" min="0" max="10" value="5" />
+
+        </form>
+
+        <p class="price">
+          <span>$16.00</span>
+          &nbsp;&nbsp;&nbsp;/month
+        </p>
+      </div>
+
+
+      <label class="name">Monthly Billing</label>
+      <input type="checkbox" class="checkbox" id="checkbox" />
+
+      <label for="checkbox" class="label">
+        <div class="ball"></div>
+      </label>
+
+      <label class="name">
+        Yearly Billing
+        <span>-25%</span>
+      </label>
+
+      <ul>
+        <li><img src="./images/icon-check.svg">Unlimited Websites</li>
+        <li><img src="./images/icon-check.svg">100% data ownership</li>
+        <li><img src="./images/icon-check.svg">Email reports</li>
+      </ul>
+      <button class="button">
+        Start my trial
+      </button>
+
+
+
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="https://github.com/alperenyldr">Alperen Yıldırım</a>.
+      </div>
+</body>
+
+</html>
